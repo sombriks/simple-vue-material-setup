@@ -16,9 +16,8 @@
 
 var Vue = require('vue');
 var VueMaterial = require('vue-material');
-require('vue-material/dist/vue-material.css');
+require('./app.css');
 
-Vue.use(VueRouter);
 Vue.use(VueMaterial);
 
 Vue.material.theme.register('default', {
